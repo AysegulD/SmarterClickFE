@@ -1,0 +1,14 @@
+.form-control{
+    border-color: #167bff;
+    box-shadow: none;
+}
+.form-group{
+    width: 20%;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.signup{
+    text-align: center;
+}
