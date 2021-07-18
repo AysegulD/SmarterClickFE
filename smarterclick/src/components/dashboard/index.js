@@ -3,13 +3,12 @@ import Table from 'react-bootstrap/Table';
 import "./style.css";
 
 
-
 function Dashboard() {
   return(
     <div className="dashboard">
         <Table>
-  <thead>
-    <tr>
+  <thead className="thead">
+    <tr className="table-name">
       <th>Dashboard</th>
       <th>User Impressions</th>
       <th>Overlays shown</th>
@@ -17,33 +16,33 @@ function Dashboard() {
       <th>Revenue(in £GBP)</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody className="tbody">
     <tr>
       <td>1</td>
       <td>User Click</td>
-      <td>View</td>
       <td>Advertisement</td>
-      <td>Visit</td>
+      <td>Click Time</td>
+      <td>200</td>
     </tr>
     <tr>
       <td>2</td>
-      <td>Bounce Rate</td>
-      <td>Time Spent on Website</td>
+      <td>View</td>
       <td>Demographics</td>
-      <td>Data</td>
+      <td>Time Spent on Website</td>
+      <td>300</td>
     </tr>
     <tr>
       <td>3</td>
       <td >Click Time</td>
       <td>Cost Per Click</td>
-      <td>CTR</td>
-      <td>Analytics</td>
+      <td>Cost Per Click</td>
+      <td>450</td>
     </tr>
     <tr>
       <td>4</td>
-      <td>500</td>
-      <td>400</td>
-      <td>450</td>
+      <td>Analytics</td>
+      <td>User Activities</td>
+      <td>CTR</td>
       <td>350</td>
     </tr>
     

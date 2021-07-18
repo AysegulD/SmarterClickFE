@@ -1,1 +1,13 @@
 
+.dashboard{
+    color: #EC6952;
+}
+.thead{
+    background-color: #EDF3F9;
+}
+.tbody{
+    background-color: #F0F6FC;
+}
+.table-name{
+    color: #80A4CE;
+}
