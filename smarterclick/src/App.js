@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter as Router,Route} from "react-router-dom";
+import {BrowserRouter as Router,Route} from 'react-router-dom';
 import Homepage from './components/homepage';
 import Signup from './components/signup';
 import Dashboard from './components/dashboard';
 import Header from './components/header';
-import Hamburger from "./components/hamburger-menu";
+import Hamburger from './components/hamburger-menu';
 
 function App() {
   return (
@@ -17,9 +17,7 @@ function App() {
         <Route path="/signup" component={Signup} />
         <Route path="/dashboard" component={Dashboard} />
       </div>
-    </Router>
-
-    
+    </Router> 
   );
 }
 
