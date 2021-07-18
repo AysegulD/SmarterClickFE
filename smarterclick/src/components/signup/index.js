@@ -1,8 +1,11 @@
 import React from 'react';
+
+
 import './style.css';
 
 function Signup(){
     return(
+        
         <div className="signup">
         <form >
             <h3>Sign Up</h3>

@@ -7,6 +7,7 @@ import "./style.css";
 function Dashboard() {
   return(
     <div className="dashboard">
+    
         <Table>
   <thead>
     <tr>
